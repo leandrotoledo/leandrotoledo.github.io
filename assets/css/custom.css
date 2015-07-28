@@ -46,22 +46,13 @@ body {
 a { 
 	color:#000;
 }
-.lead { 
-	font-weight:normal;
-	font-size:1.5em;
-	line-height:1.2em;
+
+.btn-link {
+	color:#fff
 }
 
-@media (max-width: 767px) {
-	.lead { 
-		font-size:1.3em;
-	}
-}
-.btn-link {
-	color:rgba(0,0,0,.8);
-}
 .btn-link:hover, .btn-link:focus, .btn-link:active {
-	color:#fff
+	color:rgba(0,0,0,.8);
 }
 
 .title,
@@ -110,19 +101,6 @@ a {
 	.title { font-size:7em;}
 }
 
-.subtitle { 
-	line-height:.9em;
-	font-size:5.5em;
-	margin-top:0;
-	margin-bottom:40px; 
-}
-.tagline { 
-	font-size:1.4em;
-	line-height:1.3em;
-	font-weight:normal;
-	margin-bottom:75px;
-}
-
 /********************************************************/
 /*                 Everything else                      */
 /********************************************************/
@@ -134,21 +112,6 @@ a {
 	text-decoration: none; 
 }
 
-
-/* Social buttons in the footer */
-#social { 
-	margin-top:50px;
-	margin-bottom:50px;
-}
-#social .wrapper { 
-	width:340px; 
-	margin:0 auto;
-}
-
-
-
-
-
 /***********************************************************/
 /*                   Theme: text shadows                   */
 /***********************************************************/
@@ -159,32 +122,4 @@ a {
 .text-shadows .subtitle,
 .text-shadows .tagline { 
 	text-shadow:0 2px 3px rgba(0,0,0,.4);
-}
-.text-shadows .mainmenu .dropdown-menu a { 
-	text-shadow:0 2px 1px rgba(0,0,0,.2);
-}
-.text-shadows .mainmenu .dropdown-menu a:hover { 
-	text-shadow:none;
-}
-
-/***********************************************************/
-/*                   Inverted theme                        */
-/***********************************************************/
-.theme-invert { 	
-	color:#222;
-	color:rgba(0,0,0,.8); 
- }
-.theme-invert a { 
-	color:#000;
-}
-.theme-invert .btn-link {
-	color:rgba(0,0,0,.8);
-}
-.theme-invert .btn-link:hover, .theme-invert .btn-link:focus, .theme-invert .btn-link:active {
-	color:#000
-}
-.theme-invert .title,
-.theme-invert .subtitle,
-.theme-invert .tagline { 
-	color:#222222; 
 }
